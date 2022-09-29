@@ -1,0 +1,14 @@
+.app-sidebar__user-avatar {
+    width: 48px;
+    background: rgb(255, 255, 255);
+    pd: 6px;
+}
+
+.app-header__logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.app-sidebar__user-designation {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5ch;
+}
