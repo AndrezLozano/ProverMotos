@@ -13,7 +13,7 @@ class Home extends Controllers
         $data['page_tag'] = "Home";
         $data['page_title'] = "Página principal";
         $data['page_name'] = "home";
-        $data['page_content'] = "Lorem ipsum dolor sit amet, ...";
+        $data['page_content'] = "Lorem ipsum dolor sit loza amet, ...";
         $this->views->getView($this,"home", $data);
     }
 }

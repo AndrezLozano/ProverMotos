@@ -17,7 +17,7 @@
         <p><?php echo $data['page_content']; ?></p>
     </section>
 
-    <?php echo SMONEY.formatMoney(58999); ?>
+    <?php echo SMONEY.formatMoney(2000000); ?>
 </body>
 
 </html>

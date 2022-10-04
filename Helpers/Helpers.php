@@ -31,6 +31,12 @@ function dep($data)
     $format .= print_r('</pre>');
     return $format;
 }
+// Coloca el modal en nuestra vista
+
+function getModal(string $nameModal, $data){
+    $view_modal = "views/Template/Modals/{$nameModal}.php";
+    require_once $view_modal;
+}
 
 //Elimina exceso de espacios entre palabras
 function strClean($strCadena)
