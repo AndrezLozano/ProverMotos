@@ -34,7 +34,7 @@ function dep($data)
 // Coloca el modal en nuestra vista
 
 function getModal(string $nameModal, $data){
-    $view_modal = "views/Template/Modals/{$nameModal}.php";
+    $view_modal = "Views/Template/Modals/{$nameModal}.php";
     require_once $view_modal;
 }
 

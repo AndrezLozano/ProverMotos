@@ -12,6 +12,7 @@
     <title><?= $data['page_tag'] ?></title>
     <!-- Main CSS-->
     <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/main.css">
+    <link rel="stylesheet" type="text/css" href="<?= media();?>/css/bootstrap-select.min.csss">
     <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/style.css">
 
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"> -->

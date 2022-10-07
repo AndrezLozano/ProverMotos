@@ -16,8 +16,8 @@
         //Insertar un registro 
         public function insert(string $query, array $arrValues)
         {
-            $this->strquery = $query;
-            $this->arrVAlues = $arrValues;       
+                $this->strquery = $query;
+                $this->arrVAlues = $arrValues;       
             $insert = $this->conexion->prepare($this->strquery);
             $resInsert = $insert->execute($this->arrVAlues);
             if ($resInsert) 
@@ -63,7 +63,7 @@
         public function delete(string $query)
         {
             $this->strquery = $query;
-            $result = $this->conexion->prepare($this->srtquery);
+        $result = $this->conexion->prepare($this->srtquery);
             $del = $result->execute();
             return $del;
         }

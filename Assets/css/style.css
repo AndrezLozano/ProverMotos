@@ -26,3 +26,6 @@ background-color: #4682a2;
     background: #007bff;
     color: #FFF;
 }
+.notBlock {
+    display: none;
+}
